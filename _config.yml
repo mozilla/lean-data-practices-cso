@@ -1,0 +1,41 @@
+title: Lean Data Practices for Civil Society Organizations
+subtitle:
+email: https://www.mozilla.org/en-US/newsletter/mozilla/
+twitter: https://twitter.com/mozilla
+description: > # this means to ignore newlines until "baseurl:"
+  All information is interesting, but only some data is useful This
+  toolkit is for anyone working in advocacy Lean Data Practices (“LDP”) 
+  are techniques for managing data. You don’t need an engineering degree 
+  or a dedicated budget to apply LDP. All you need is a commitment from 
+  your organization to consider data decisions thoughtfully. 
+  The pay-off? LDP helps you build trust with members and reduces operational risk.
+baseurl: "/lean-data-practices" # the subpath of your site, e.g. /blog
+url: "https://melechuga.github.io" # the base hostname & protocol for your site
+github:
+  repo: "Melechuga/lean-data-practices"
+  branch: "gh-pages"
+
+
+collections:
+  articles:
+    output: true
+    permalink: /:path/
+
+# Build settings
+markdown: kramdown
+
+redcarpet:
+    extensions: [
+        'no_intra_emphasis',
+        'fenced_code_blocks',
+        'autolink',
+        'strikethrough',
+        'superscript',
+        'with_toc_data',
+        'tables',
+        'hardwrap'
+    ]
+
+# variables
+video: "<span class=\"video-player\"></span>"
+assignment: "<span class=\"assignment\">Assignment: </span>"

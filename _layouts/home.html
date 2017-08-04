@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="hero-unit home-page">
+  <div class="transbox">
+  <h1>Lean Data Practices for Civil Society Organizations</h1>
+  <p>Build trust with your members and reduce operational risk</p>
+  
+       </div>
+</div>
+
+<div class="home-page lesson-content">
+  <div class="intro"></div>
+  <div>{{ content }}</div>
+  
+  {% if page.following %}
+ {% assign next = site.articles | where: "path", page.following | first %}
+ <a class="btn btn-lg btn-default btn-next" href="{{ next.url | prepend: site.baseurl }}">
+Get Started:
+{{ next.title }} &nbsp;
+<i class="fa fa-play" aria-hidden="true"></i>
+</a>
+<br />
+{% endif %}
+
+</div>
