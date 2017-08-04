@@ -9,11 +9,11 @@ description: > # this means to ignore newlines until "baseurl:"
   or a dedicated budget to apply LDP. All you need is a commitment from 
   your organization to consider data decisions thoughtfully. 
   The pay-off? LDP helps you build trust with members and reduces operational risk.
-baseurl: "/lean-data-practices" # the subpath of your site, e.g. /blog
-url: "https://melechuga.github.io" # the base hostname & protocol for your site
+baseurl: "/lean-data-practices-cso" # the subpath of your site, e.g. /blog
+url: "https://mozilla.github.io" # the base hostname & protocol for your site
 github:
-  repo: "Melechuga/lean-data-practices"
-  branch: "gh-pages"
+  repo: "mozilla/lean-data-practices-cso"
+  branch: "master"
 
 
 collections:
