@@ -16,11 +16,11 @@ Every additional byte you store increases your operating costs and the costs to 
 ### What's in the toolkit?
 
 This toolkit is designed to help you review your processes around collecting and storing data. Topics covered include:
-* [**Stay Lean**](https://melechuga.github.io/lean-data-practices/stay_lean/)
+* [**Stay Lean**](https://mozilla.github.io/lean-data-practices-cso/stay_lean/)
   
-* [**Build in Security**](https://melechuga.github.io/lean-data-practices/build_in_security/)
+* [**Build in Security**](https://mozilla.github.io/lean-data-practices-cso/build_in_security/)
     
-* [**Engage Your Membership**](https://melechuga.github.io/lean-data-practices/engage_membership/)
+* [**Engage Your Membership**](https://mozilla.github.io/lean-data-practices-cso/engage_membership/)
  
 ### Who is this toolkit for?
 
